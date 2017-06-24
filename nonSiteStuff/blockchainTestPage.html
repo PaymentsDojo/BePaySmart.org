@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Drogheda Digital Payments</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../css/carousel.css" rel="stylesheet">
+  
+
+    <style>
+        html,body{width: 100%;height: 100%;box-sizing: border-box; padding: 7px;}
+
+        p {font-size: 1.1em}
+
+        .vertical-align {
+            display: flex;
+            align-items: center;
+        }
+        .big{
+            width: 100%;
+            height: 101%;
+        }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="container-fluid big">
+        <!-- video and teaser text -->
+        <div class="row vertical-align big">
+            <div class="col-md-8 col-xs-12">
+                <iframe width="100%" src="https://www.youtube.com/embed/IhP3J0j9JmY" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <h3>Blockchain is going to to be a big buzzword in a few years. It's a secure, fast, public yet private, de-centralised system that can transfer anything from euros to houses!</h3>
+            </div>
+        </div>
+        <!-- full text -->
+        <div class="row">
+            <div class = "col-md-12 col-xs-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus aliquam vulputate. Nunc vitae libero a sapien rutrum dignissim. Donec mattis pharetra libero. Mauris laoreet erat quis augue efficitur dignissim. Curabitur volutpat auctor eros tincidunt mattis. Aenean nec euismod magna. Nullam ut nisi dictum sapien vestibulum vestibulum at quis erat. Aenean in turpis eu libero sagittis ultricies. Sed sagittis est eget enim tincidunt elementum. Donec non viverra tortor. Aenean at neque quis leo gravida elementum in quis metus. Phasellus vel pretium nisl, nec rutrum velit.</p>
+
+                <p>Maecenas consequat, justo et pharetra sollicitudin, nisi ante varius diam, nec aliquet dui augue elementum nibh. In rhoncus, massa mattis varius vulputate, quam tellus condimentum urna, in laoreet ante erat vitae tellus. Donec quis justo fringilla, vehicula odio vitae, varius massa. In a tincidunt dui. Nam sed consequat augue. Nulla nec arcu ex. Ut in lacus libero. Curabitur at justo in risus maximus commodo pulvinar nec sapien. Integer maximus et nisl id tincidunt. Nullam gravida, tortor sed consectetur fermentum, lectus elit varius odio, ac venenatis dolor justo eget risus. Suspendisse lectus dolor, egestas sed velit vel, posuere condimentum sem. Vestibulum luctus elit nec ipsum viverra, eget facilisis ante sodales. Morbi mauris leo, blandit vel scelerisque eget, tempor eget felis.</p>
+
+                <p>Curabitur non dictum nisi. Cras non accumsan lacus. Cras accumsan lacus sed blandit tempor. Sed interdum ornare justo et egestas. Donec non imperdiet arcu. Aenean urna orci, interdum vitae nulla at, vestibulum pharetra velit. Duis vehicula ornare venenatis. Praesent luctus euismod neque, sit amet vehicula metus vehicula ut. Pellentesque et turpis sit amet lectus sagittis mollis sed sed nibh. Quisque pretium diam vel lectus pellentesque, ac posuere dolor volutpat. Sed eget ultrices lorem. Fusce hendrerit tortor dolor, quis suscipit libero feugiat et. Nam maximus eget tortor ut porta. Aenean porttitor sed diam vel feugiat.</p>     
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/angular.min.js"></script>
+
+    <script>
+        $("iframe").height($("iframe").width() * 0.5625)
+        $(window).resize(function (){
+            $("iframe").height($("iframe").width() * 0.5625)
+        });
+    </script>
+
+  </body>
+</html>
