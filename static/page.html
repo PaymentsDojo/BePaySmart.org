@@ -38,7 +38,7 @@
 
         <div class="container-fluid big">
         <!-- video and teaser text -->
-        <div class="row vertical-align big">
+        <div class="row big">
             <div class="col-md-8 col-xs-12">
                 <iframe width="100%" src="{{youtubeLink}}" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -64,9 +64,10 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/handlebars.min.js"></script>
     <script>
-
         function resize(){
-            $("iframe").height($("iframe").width() * 0.5625)
+            if($(window).width() >= 768){
+                $("iframe").height($("iframe").width() * 0.5625)
+            }
         }
 
         $(document).ready(function(){
