@@ -17,9 +17,13 @@
             "youtubeLink": "https://www.youtube.com/embed/88Rjg8gM_DI",
             "paragraphs": [
                 "Biometrics is using a person’s physical traits ( fingerprints , iris , veins etc) to identify them.This has many uses , such as allowing someone to access their accounts without them having to remember their passwords, while still being as secure ( or even more) as a password.",
-                "<h3>Types of biometrics:</h3><br> Fingerprint recognition<br> Iris recognition<br> Facial recognition<br> Voice recognition",
+                "<h3>Types of biometrics:</h3> Fingerprint recognition<br> Iris recognition<br> Facial recognition<br> Voice recognition",
                 "Which biometrics to use depends on how secure you need to be. You may even want a combination of them.",
-                "<h3>Biometrics in practice</h3>",
+                "<h3>Fingerprint:</h3>Analysing the ridges on somebody's finger and comparing them",
+                "<h3>Iris:</h3>Analysing the eye patterns and veins and comparing them",
+                "<h3>Facial:</h3>Analysing the facial patterns and comparing them",
+                "<h3>Voice:</h3>A little more complicated, turning a voice into a computer readable format and comparing it",    
+                "<h3>Biometrics in practice:</h3>",
                 "Biometrics isn’t just useful for businesses , it’s useful for even the common person, If you have ever reused a password or got frustrated at how many you had to remember, Biometrics can help you!"
             ]
         }
