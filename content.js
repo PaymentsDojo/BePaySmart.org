@@ -34,6 +34,16 @@
                 "<h3>Biometrics in practice:</h3>",
                 "Biometrics isn’t just useful for businesses , it’s useful for even the common person, If you have ever reused a password or got frustrated at how many you had to remember, Biometrics can help you!"
             ]
+        },
+        "futuredigital": {
+            "title": "THE FUTURE OF DIGITAL PAYMENTS",
+            "teaserText": "So we’ve seen blockchain, biometrics and smartphones. But where else is the future going?",
+            "youtubeLink": "https://www.youtube.com/embed/y6Sxv-sUYtM",
+            "paragraphs": [
+                "We’ve only covered a few select points in the website. The digital payments landscape is rapidly changing, with new updates being unveiled every day. For example, Microsoft have launched the Microsoft cloud, allowing small businesses anywhere that there’s internet, allowing people in poorer countries to accept digital payments anywhere.",
+                "Robots are also going to be big in the digital payments landscape. Robots have already taken over many tasks such as building cars (and many other production lines) , and are destined to take over other tasks such as ordering in a restaurant.",
+                "To summarize, the future is a big place. Almost every prediction from 30 years ago was too optimistic (flying cars), or too pessimistic (smartphones). The truth is, no one really knows  what’s going to happen in the future. No one.",
+            ]
         }
     }
 
