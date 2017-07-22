@@ -1,4 +1,4 @@
-    content = {
+﻿    content = {
         "introduction":{
           "title": "Introduction",
           "teaserText": "Welcome to the Drogheda Digital Payments website",
@@ -21,7 +21,7 @@
             ]
         },
         "blockchain":{
-            "title":"BLOCKCHAIN",
+            "title":"Blockchain",
             "teaserText": "A new way to securely store information!",
             "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "paragraphs": [
@@ -38,13 +38,21 @@
             ]
         },
         "contactless":{
-            
-        },
+            "title":"Contactless Payment",
+	    "teaserText":"Contactless payments is a quicker and easier way to pay.",
+	    "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
+	    "paragraphs": [
+		"Contactless payments is a quicker and easier way to pay money.",
+		"For example, instead of carrying a bunch coins in your pocket just use contactless payments. Using a credit card or ordering anything from your mobile phone is a type of contactless payment.",
+		"There are loads of contactless payments for example Credit cards, debit cards, key fobs, smart cards or other devices including smartphones and some other mobile devices.",
+		"Mobil were one of the first companies to use contactless payments with their speedpass cards in 1997. Mobil used the speed pass at their gas stations for a quick and easy way to pay. The speedpass has a dedicated transponder identification and a security code making it more secure than a debit card.",
+		"Because no signature or PIN verification is typically required, contactless purchases are typically limited to a set amount per transaction, known as a "floor limit".",
+		},  ]
         "smartphones":{
-            
+
         },
         "biometrics": {
-            "title": "BIOMETRICS",
+            "title": "Biometrics",
             "teaserText": "Security using your physical traits.",
             "youtubeLink": "https://www.youtube.com/embed/88Rjg8gM_DI",
             "paragraphs": [
@@ -60,7 +68,7 @@
             ]
         },
         "futuredigital": {
-            "title": "THE FUTURE OF DIGITAL PAYMENTS",
+            "title": "The future of digital payments",
             "teaserText": "So we’ve seen blockchain, biometrics and smartphones. But where else is the future going?",
             "youtubeLink": "https://www.youtube.com/embed/y6Sxv-sUYtM",
             "paragraphs": [
