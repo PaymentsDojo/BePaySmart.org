@@ -1,10 +1,10 @@
 ﻿    content = {
         "introduction":{
           "title": "Introduction",
-          "teaserText": "Welcome to the Drogheda Digital Payments website",
+          "teaserText": "Welcome to the Drogheda Digital Payments website.",
           "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
           "paragraphs": [
-            		"Welcome to the Drogheda Digital Payments website! In this website you will find how digital payments are already affecting our everyday lives, and how new types are sure to affect it even more. Brace yourselves as you embark on a journey to find out what, and why, digital payments are, and why we use them."
+            		"Welcome to the Drogheda Digital Payments website. On this website you will find how digital payments are already affecting our everyday lives, and how new types are sure to affect it even more. Brace yourselves as you embark on a journey to find out what, and why, digital payments are, and why we use them."
           ] 
         },
         "histcurrency":{
@@ -20,7 +20,7 @@
             "teaserText": "We've used it for so long, why are we dropping it now?",
             "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "paragraphs": [
-                	"As has been told in the History of Currency section, currency has existed in some form or another for as long as humans have been around – through bartering to coins to cash. Physical cash and money are becoming quite obsolete and you may be asking yourself, why?",
+                	"As has been told on the<a href=\"page.html?page=histcurrency\">history of currency</a>. page, currency has existed in some form or another for as long as humans have been around – through bartering to coins to cash. Physical cash and money are becoming quite obsolete and you may be asking yourself, why?",
                 	"The growth of technology has led to many advances! Making purchases via card or electronic transfer are much more convenient and save time. Even more time can be saved as all transactions move towards biometric payments – time can be saved by not having to swipe your card, enter your PIN etc. All the security you need will be held within yourself alone. How many times have you lost money and just can’t find it?",
                 	"That problem just doesn’t exist with biometric payments, as you’ll always have yourself when making a purchase. With the rise of credit cards, contactless payments and crpytocurrencies like Bitcoin, the need for cash is becoming obsolete.  There are quite a few factors in making the progress away from cash quite difficult. The human race are attached to cash as it’s been around for so long and it is universally used by lots of vendors and users. The restrictions that are also in place for the youth having bank accounts also play a part in people being attached to cash. It can be seen that the progress away from cash more of a slog than a sprint."
             ]
@@ -89,8 +89,8 @@
             "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "teaserText": "One must consider the many risks that come with new biometric technology.",
             "paragraphs": [
-                	"It can be said that not only does biometric technology add to the security and saftety risks, it can also solve some.",
-                	"Once the biometric data goes digital and stored in a centralized database, it can be compromised. If a security breach occurred currently, new credits and details can be released to bank customers. In case of this occuring in the time of biometric payments,it would not be possible to release a new fingerprint. Banks and financial organisations must explore more secure methods of storage. Perhaps, standardization could solve this problem. The use of  biometrics data is currently largely unregulated. Once governments have set standards, different companies will not be able to operate under different degrees of scrutiny providing better security and more safety for users.",
+                	"It can be said that not only does biometric technology add to the security and safety risks, it can also solve some.",
+                	"Once the biometric data goes digital and stored in a centralized database, it can be compromised. If a security breach occurred currently, new credits and details can be released to bank customers. In case of this occuring in the time of biometric payments, it would not be possible to release a new fingerprint. Banks and financial organisations must explore more secure methods of storage. Perhaps, standardization could solve this problem. The use of  biometrics data is currently largely unregulated. Once governments have set standards, different companies will not be able to operate under different degrees of scrutiny providing better security and more safety for users.",
                 	"Biometric technology could combat many major security issues such as Identity theft and ATM fraud. A fraud can currently apply for a credit card using a fake I.D.  however it would be difficult for a fraud to apply using a fake fingerprint. Card trapping is a regular occurrence at local ATMs. A card can be physically trapped in the machine comprising the details of the user/card owner – frauds go on to create counterfeit cards. This will issue would be combatted if biometric touch was used at an ATM. ",
             ]
 
