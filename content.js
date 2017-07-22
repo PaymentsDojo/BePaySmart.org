@@ -1,9 +1,14 @@
     content = {
         "introduction":{
-            
+          "title": "Introduction",
+          "teaserText": "Welcome to the Drogheda Digital Payments website",
+          "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
+          "paragraphs": [
+            "Welcome to the Drogheda Digital Payments website! In this website you will find how digital payments are already affecting our everyday lives, and how new types are sure to affect it even more. Brace yourselves as you embark on a journey to find out what, and why, digital payments are, and why we use them."
+          ] 
         },
         "histcurrency":{
-
+            
         },
         "moneyobsolete":{
             "title": "Why is money becoming obsolete?",
@@ -29,12 +34,11 @@
 				"This would require tons upon tons of power to attack, and that is simply too impractical.", 
 				"There’s nothing new about MDLs, their origins traceable to 1976. But for a long time, they were regarded as complicated and not altogether safe.",
 				"But if the registry was not owned by a central third party but sitting on multiple machines and everybody had copies, it would have resilience and looking up transactions would be quick. With the data being immutable once entered in the ledger, it would provide a permanent record that financial regulators and auditors could quickly fall in love with.",
-				"In other words, it’s a souped-up audit trail for anything you like, not just a cryptocurrency. It’s not just one system. Indeed, the situation can be compared of the database revolution of the 1970s: there wasn’t just one type or structure for a database, you created the specific database you wanted for your own purposes."
-				
+				"In other words, it’s a souped-up audit trail for anything you like, not just a cryptocurrency. It’s not just one system. Indeed, the situation can be compared of the database revolution of the 1970s: there wasn’t just one type or structure for a database, you created the specific database you wanted for your own purposes."	
             ]
         },
         "contactless":{
-
+            
         },
         "smartphones":{
 
