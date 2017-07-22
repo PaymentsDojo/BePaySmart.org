@@ -41,7 +41,7 @@
             
         },
         "smartphones":{
-
+            
         },
         "biometrics": {
             "title": "BIOMETRICS",
