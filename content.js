@@ -43,15 +43,15 @@
             ]
         },
         "contactless":{
-            "title":"Contactless Payment",
-	        "teaserText":"Contactless payments is a quicker and easier way to pay.",
+            "title":"Contactless Payments",
+	        "teaserText":"Contactless payments are quicker and easier way to pay.",
 	        "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
 	        "paragraphs": [
-		        "Contactless payments is a quicker and easier way to pay money.",
-		        "For example, instead of carrying a bunch coins in your pocket just use contactless payments. Using a credit card or ordering anything from your mobile phone is a type of contactless payment.",
-		        "There are loads of contactless payments for example Credit cards, debit cards, key fobs, smart cards or other devices including smartphones and some other mobile devices.",
+		        "Contactless payments are a quicker and easier way to pay. Instead of carrying a bunch of coins in your pocket just use contactless payments.",
+		        "There are loads of ways to do contactless payments; for example, tap-to-pay credit cards, tap-to-pay debit cards, certain key fobs, smart cards or other devices including smartphones and some other mobile devices.",
+		        "Because no signature or PIN verification is typically required, contactless purchases are typically limited to a set amount per transaction, known as a \"floor limit\". Most banks set this to 25 to 30 euros, although that may differ. Transactions above this usually require a type of identification, such as a PIN or <a href="page.html?page=biometrics">fingerprint</a>.",
 		        "Mobil were one of the first companies to use contactless payments with their speedpass cards in 1997. Mobil used the speed pass at their gas stations for a quick and easy way to pay. The speedpass has a dedicated transponder identification and a security code making it more secure than a debit card.",
-		        "Because no signature or PIN verification is typically required, contactless purchases are typically limited to a set amount per transaction, known as a \"floor limit\"."
+
             ]
 		}, 
         "smartphones":{
