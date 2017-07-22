@@ -1,6 +1,14 @@
-
-
     content = {
+        "introduction":{
+            
+        },
+        "histcurrency":{
+
+        },
+        "moneyobsolete":{
+            "title": "Why is money becoming obsolete?",
+            "teaserText": "We've used it for so long, why are we dropping it now?"
+        },
         "blockchain":{
             "title":"BLOCKCHAIN",
             "teaserText": "A new way to securely store information!",
@@ -18,6 +26,12 @@
 				"In other words, it’s a souped-up audit trail for anything you like, not just a cryptocurrency. It’s not just one system. Indeed, the situation can be compared of the database revolution of the 1970s: there wasn’t just one type or structure for a database, you created the specific database you wanted for your own purposes."
 				
             ]
+        },
+        "contactless":{
+
+        },
+        "smartphones":{
+
         },
         "biometrics": {
             "title": "BIOMETRICS",
