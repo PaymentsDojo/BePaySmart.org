@@ -86,6 +86,7 @@
 
         "security":{
             "title": "Safety and Security",
+            "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "teaserText": "One must consider the many risks that come with new biometric technology.",
             "paragraphs": [
                 "It can be said that not only does biometric technology add to the security and saftety risks, it can also solve some.",
