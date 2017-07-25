@@ -1,18 +1,9 @@
+var currentIndex = 0;
+var pages;
 jQuery(function($) {'use strict',
 	
-	//Countdown js
-	 $("#countdown").countdown({
-			date: "10 july 2014 12:00:00",
-			format: "on"
-		},
-		
-		function() {
-			// callback function
-		});
 	
-
-	
-	//Scroll Menu
+	$(document).ready(function(){
 
 	function menuToggle()
 	{
@@ -33,7 +24,7 @@ jQuery(function($) {'use strict',
 		}
 	}
 
-	menuToggle();
+	menuToggle()
 	
 	
 	// Carousel Auto Slide Off
@@ -42,109 +33,84 @@ jQuery(function($) {'use strict',
 	});
 
 
-	// Contact form validation
-	var form = $('.contact-form');
-	form.submit(function () {'use strict',
-		$this = $(this);
-		$.post($(this).attr('action'), function(data) {
-			$this.prev().text(data.message).fadeIn().delay(3000).fadeOut();
-		},'json');
-		return false;
-	});
-
 	$( window ).resize(function() {
 		menuToggle();
 	});
 
-	$('.main-nav ul').onePageNav({
+	/*$('.main-nav ul').onePageNav({
 		currentClass: 'active',
 	    changeHash: false,
 	    scrollSpeed: 900,
 	    scrollOffset: 0,
 	    scrollThreshold: 0.3,
 	    filter: ':not(.no-scroll)'
-	});
+	});*/
 
+ 		function resize(){
+            //if($(window).width() >= 768){
+                $("iframe").height($("iframe").width() * 0.5625)
+            //}
+        }
+		$(window).resize(resize)
+		setTimeout(resize,500)
+
+
+		$('#event-carousel').on('slid.bs.carousel', function () {
+
+		// This variable contains all kinds of data and methods related to the carousel
+		var carouselData = $(this).data('bs.carousel');
+		// EDIT: Doesn't work in Boostrap >= 3.2
+		currentIndex = carouselData.getActiveIndex();
+		//currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
+
+		var appElement = document.querySelector('[ng-app=ddp]');
+		var $scope = angular.element(appElement).scope();
+		$scope = $scope.$$childHead; // add this and it will work
+		$scope.$apply(function() {
+			$scope.currentIndex = currentIndex;
+		});
+
+	});
+	
+
+	});
 });
 
-
-// Google Map Customization
-(function(){
-
-	var map;
-
-	map = new GMaps({
-		el: '#gmap',
-		lat: 43.04446,
-		lng: -76.130791,
-		scrollwheel:false,
-		zoom: 16,
-		zoomControl : false,
-		panControl : false,
-		streetViewControl : false,
-		mapTypeControl: false,
-		overviewMapControl: false,
-		clickable: false
-	});
-
-	var image = 'images/map-icon.png';
-	map.addMarker({
-		lat: 43.04446,
-		lng: -76.130791,
-		icon: image,
-		animation: google.maps.Animation.DROP,
-		verticalAlign: 'bottom',
-		horizontalAlign: 'center',
-		backgroundColor: '#3e8bff',
-	});
+window.goto = function (index){
+	$("#event-carousel").carousel(index)
+}
 
 
-	var styles = [ 
+// Angular
+angular.module('ddp',[])
+	   .controller('PageController',function ($http,$scope,$sce){
+			$scope.currentIndex = 0;
 
-	{
-		"featureType": "road",
-		"stylers": [
-		{ "color": "#b4b4b4" }
-		]
-	},{
-		"featureType": "water",
-		"stylers": [
-		{ "color": "#d8d8d8" }
-		]
-	},{
-		"featureType": "landscape",
-		"stylers": [
-		{ "color": "#f1f1f1" }
-		]
-	},{
-		"elementType": "labels.text.fill",
-		"stylers": [
-		{ "color": "#000000" }
-		]
-	},{
-		"featureType": "poi",
-		"stylers": [
-		{ "color": "#d9d9d9" }
-		]
-	},{
-		"elementType": "labels.text",
-		"stylers": [
-		{ "saturation": 1 },
-		{ "weight": 0.1 },
-		{ "color": "#000000" }
-		]
-	}
+			function arrayify (obj){
+				r = []
+				keys = Object.keys(obj)
+				keys.forEach(function (key){
+					r.push(obj[key])
+				})
+				return r;
+			}
 
-	];
+			//1: get page titles from server
+			$http({
+				"method": "GET",
+				"url": "/pagesJSON"
+			}).then (function (res){
+				d = arrayify(res.data);
+				$scope.pages = d;
+				pages = d;
+			}); 
 
-	map.addStyle({
-		styledMapName:"Styled Map",
-		styles: styles,
-		mapTypeId: "map_style"  
-	});
-
-	map.setStyle("map_style");
-}());
-
-
-
+			$scope.getProjURL = function (url){
+				return $sce.trustAsResourceUrl(url)
+			}
+	   })
+	   .filter('trust', ['$sce',function($sce) {
+			return function(value, type) {
+				return $sce.trustAs(type || 'html', value);
+			}
+			}]);

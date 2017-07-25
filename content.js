@@ -1,7 +1,7 @@
 ﻿    content = {
         "introduction":{
           "title": "Introduction",
-          "teaserText": "Welcome to the Drogheda Digital Payments website.",
+          "teaserText": "Welcome to the Drogheda Digital Payments website!",
           "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
           "paragraphs": [
             		"Welcome to the Drogheda Digital Payments website. On this website you will find how digital payments are already affecting our everyday lives, and how new types are sure to affect it even more. Brace yourselves as you embark on a journey to find out what, and why, digital payments are, and why we use them."
@@ -55,7 +55,12 @@
             ]
 		}, 
         "smartphones":{
-
+            "title": "Smartphones",
+            "teaserText": "We all use, know, and love 'em!",
+            "youtubeLink": "",
+            "paragraphs": [
+                
+            ]
         },
         "biometrics": {
             "title": "Biometrics",
@@ -107,6 +112,11 @@
             
     }
 
-    module.exports = function(page){
-    return content[page]
+module.exports = {
+    page: function(page){
+        return content[page]
+    },
+    pages: function (){
+        return content
+    }
 }

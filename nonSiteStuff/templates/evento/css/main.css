@@ -2,6 +2,11 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
 
 
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
 /*************************
 *******Typography******
 **************************/
@@ -171,7 +176,9 @@ h2 {
   display: none;
 }
 
-
+.dropdown ul{
+  background-color: #1B7B98;
+}
 
 /*************************
 *******Home CSS******
@@ -393,11 +400,10 @@ h2 {
 **************************/
 #event {
   background-color: #33888F;
-  background-image: url("../images/performar-bg.jpg");
+  background-image: url("../images/about-bg.jpg");
   background-position: 50% 0;
   background-size: contain;
   position: relative;
-  background-repeat: no-repeat;
 }
 
 .guitar {
