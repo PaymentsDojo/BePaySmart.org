@@ -3,7 +3,7 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
+<html lang="en" ng-app="ddp">
 <!--<![endif]-->
 <head>
     <meta charset="utf-8">
@@ -13,7 +13,7 @@
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-    <title>AWESOME BOOTSTRAP TEMPLATE - BIWAS </title>
+    <title>Drogheda Digital Payments </title>
     <!--REQUIRED STYLE SHEETS-->
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -42,7 +42,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2 ">
-                    <h1 class="pad-adjust"><i class="fa fa-plus faa-pulse animated"></i>Biwas</h1>
+                    <h1 class="pad-adjust"><i class="fa fa-plus faa-pulse animated"></i>Drogheda Digital Payments</h1>
                 </div>
             </div>
         </div>
@@ -50,12 +50,11 @@
     <!--END MAIN HEADING-->
     <!--LEFT SLIDE MENU-->
     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
-        <h3>BIWAS</h3>
+        <h3>DDP</h3>
         <a href="#">Call: +01-099-908-908</a>
         <a href="#main-sec"><i class="fa fa-home fa-3x"></i>HOME</a>
         <a href="#about-sec"><i class="fa fa-microphone fa-3x"></i>ABOUT</a>
-        <a href="#price-sec"><i class="fa fa-dollar fa-3x"></i>PRICING</a>
-        <a href="#services-sec"><i class="fa fa-rocket fa-3x"></i>SERVICES</a>
+        <a href="#pages-sec"><i class="fa fa-book fa-3x"></i>PAGES</a>
         <a href="#contact-sec"><i class="fa fa-globe fa-3x"></i>CONTACT</a>
     </nav>
 
@@ -115,212 +114,37 @@
             </div>
         </div>
     </section>
-    <section class="for-full-back color-white" id="about-team">
-        <div class="container">
-            <div class="row text-center g-pad-bottom">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h3>OUR TEAM PROFILE</h3>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.                          
-                    </h4>
-                </div>
-
-            </div>
-            <div class="row text-center g-pad-bottom">
-                <div class="col-md-12 ">
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="team-member">
-                            <img src="assets/img/team/1.png" alt="">
-                            <h3><strong>ANDREWA ALEX </strong></h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="team-member">
-                            <img src="assets/img/team/2.png" alt="">
-                            <h3><strong>ROMILIA JHON </strong></h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="team-member">
-                            <img src="assets/img/team/3.png" alt="">
-                            <h3><strong>TINA WAY LEU </strong></h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="team-member">
-                            <img src="assets/img/team/4.png" alt="">
-                            <h3><strong>JHON DEO ALEX </strong></h3>
-                        </div>
-                    </div>
-
-
-
-
-
-                </div>
-            </div>
-            <div class="row g-pad-bottom">
-                <div class="col-md-6">
-                    <h3>Lorem ipsum  dolor sit amet</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                           Lorem ipsum dolor sit amet, consectetur nec nisl odio
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <h3>Lorem ipsum  dolor sit amet</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                           Lorem ipsum dolor sit amet, consectetur nec nisl odio
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </section>
     <!--END ABOUT SECTION-->
 
-    <!--PRICE SECTION-->
-    <section id="price-sec">
+    <!--PAGES SECTION-->
+    <section class="for-full-back color-white" id="pages-sec" ng-controller="PageController">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12 ">
-                    <div class="col-md-3">
-                        <ul class="plan">
-                            <li class="plan-head c-b">BASIC PLAN</li>
-                            <li class="main-price">$99 only</li>
-                            <li><strong>12</strong> Accounts</li>
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                            <li class="bottom">
-                                <a href="#" class="btn btn-danger">Read More</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="plan">
-                            <li class="plan-head">SIMPLE PLAN</li>
-                            <li class="main-price">$199 only</li>
-                            <li><strong>12</strong> Accounts</li>
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                            <li class="bottom">
-                                <a href="#" class="btn btn-primary">Read More</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="plan">
-                            <li class="plan-head c-v">VALUE PLAN</li>
-                            <li class="main-price">$299 only</li>
-                            <li><strong>12</strong> Accounts</li>
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                            <li class="bottom">
-                                <a href="#" class="btn btn-success">Read More</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="plan">
-                            <li class="plan-head c-a">ADVANCE PLAN</li>
-                            <li class="main-price">$399 only</li>
-                            <li><strong>12</strong> Accounts</li>
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                            <li class="bottom">
-                                <a href="#" class="btn btn-default">Read More</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-    <!-- END PRICE SECTION-->
-
-    <!--SERVICES SECTION-->
-    <section class="for-full-back color-bg-one" id="services-sec">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1><i class="fa fa-rocket faa-pulse animated  "></i>Services</h1>
-
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-8 col-md-offset-2 ">
-                        <h4>
-                            <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </strong>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="for-full-back color-white " id="services-inner">
-        <div class="container">
-            <div class="row text-center">
+            <div class="row text-center g-pad-bottom">
                 <div class="col-md-12">
-                    <div class="col-md-3 ">
-                        <div class="service-div">
-                            <i class="fa fa-desktop fa-5x faa-vertical animated"></i>
-                            <h4>Sure Quique Menu </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="service-div">
-                            <i class="fa fa-flask fa-5x faa-ring animated"></i>
-                            <h4>100% Free Responsive </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="service-div">
-                            <i class="fa fa-plus fa-5x faa-float animated"></i>
-                            <h4>Well Documented </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 ">
-                        <div class="service-div">
-                            <i class="fa fa-credit-card fa-5x faa-shake animated"></i>
-                            <h4>Clean & Customizable </h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </p>
-                        </div>
+                    <div id="page-carousel" class="carousel slide" data-interval="false">
+                        <h3>{{pages[currentIndex].title}}</h3>
+                        <a class="even-control-left" href="#page-carousel" onclick = "$('#page-carousel').carousel('prev')" ><i class="fa fa-angle-left fa-3x"></i></a>
+						<a class="even-control-right" href="#page-carousel" onclick = "$('#page-carousel').carousel('next')"><i class="fa fa-angle-right fa-3x"></i></a>
+                        <div class="carousel-inner" >
+							<div ng-repeat="(key,page) in pages" class="{{key == 0 ? 'item active' : 'item'}}">
+								<div class="row">
+									<div class="col-sm-12">
+										<iframe width="100%" ng-src="{{getProjURL(page.youtubeLink)}}" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class = "col-sm-12">
+								 		<center><p style="font-size: 2em">{{page.teaserText}}</p></center>
+										 <p ng-repeat="p in page.paragraphs" ng-bind-html="p | trust"></p>
+									</div>
+								</div>
+							</div>
+						</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--END SERVICES SECTION-->
+    <!-- END PAGES SECTION-->
+
     <!--STATS SECTION-->
     <section>
         <div class="container">
@@ -393,8 +217,9 @@
                         <br />
                     </div>
                 </div>
+
                 <div class="col-md-7">
-                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <!--<h2>Lorem ipsum dolor sit amet</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                          Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
@@ -424,7 +249,7 @@
                                 </div>
                             </div>
                         </div>
-                    </form>
+                    </form>-->
                 </div>
             </div>
         </div>
@@ -481,6 +306,8 @@
     <script src="assets/js/classie.js"></script>
     <!-- VEGAS SLIDESHOW SCRIPTS -->
     <script src="assets/plugins/vegas/jquery.vegas.min.js"></script>
+    <!-- ANGULAR JS -->
+    <script src="assets/js/angular.min.js"></script>
     <!-- CUSTOM SCRIPTS -->
     <script src="assets/js/custom.js"></script>
 

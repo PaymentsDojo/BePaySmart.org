@@ -1,4 +1,5 @@
-
+var pages,
+    currentIndex;
 /*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
@@ -89,8 +90,34 @@
             /*====================================
                WRITE YOUR SCRIPTS BELOW 
            ======================================*/
+           $('#page-carousel').carousel({
+		        interval: false
+	        });
 
+            function resize(){
+            //if($(window).width() >= 768){
+                $("iframe").height($("iframe").width() * 0.5625)
+            //}
+            }
+            $(window).resize(resize)
+            setTimeout(resize,500)
 
+            $('#page-carousel').on('slid.bs.carousel', function () {
+
+                // This variable contains all kinds of data and methods related to the carousel
+                var carouselData = $(this).data('bs.carousel');
+                // EDIT: Doesn't work in Boostrap >= 3.2
+                currentIndex = carouselData.getActiveIndex();
+                //currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
+
+                var appElement = document.querySelector('[ng-app=ddp]');
+                var $scope = angular.element(appElement).scope();
+                $scope = $scope.$$childHead; // add this and it will work
+                $scope.$apply(function() {
+                    $scope.currentIndex = currentIndex;
+                });
+
+            });
         },
 
         initialization: function () {
@@ -109,3 +136,38 @@
 
 
 
+//Angular
+
+// Angular
+angular.module('ddp',[])
+	   .controller('PageController',function ($http,$scope,$sce){
+			$scope.currentIndex = 0;
+
+			function arrayify (obj){
+				r = []
+				keys = Object.keys(obj)
+				keys.forEach(function (key){
+					r.push(obj[key])
+				})
+				return r;
+			}
+
+			//1: get page titles from server
+			$http({
+				"method": "GET",
+				"url": "/pagesJSON"
+			}).then (function (res){
+				d = arrayify(res.data);
+				$scope.pages = d;
+				pages = d;
+			}); 
+
+			$scope.getProjURL = function (url){
+				return $sce.trustAsResourceUrl(url)
+			}
+	   })
+	   .filter('trust', ['$sce',function($sce) {
+			return function(value, type) {
+				return $sce.trustAs(type || 'html', value);
+			}
+			}]);
