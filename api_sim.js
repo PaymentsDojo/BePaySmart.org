@@ -135,7 +135,7 @@ module.exports = function (multichain){
 
 	//Exit hook
 	exitHook(function () {
-		fs.writeFileSync("blockchain.json",JSON.stringify({addresses:addresses,assets:assets}));
+		//fs.writeFileSync("blockchain.json",JSON.stringify({addresses:addresses,assets:assets}));
 	});
 
 	return router;
