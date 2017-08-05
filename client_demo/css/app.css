@@ -1,0 +1,30 @@
+html,body,#parent{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#overlay{
+	margin-left:auto;
+	margin-right:auto;
+	width: 85%;
+	height: 10%;
+	background: #ccc;
+}
+
+#d3Nodes,svg{
+	width: 100%;
+	height: 90%;
+}
+
+#overlay h1{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-top: 2.5%;
+	height: 2.5%;
+}
+
+line{
+	pointer-events: none;
+}
