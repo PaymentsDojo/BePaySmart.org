@@ -37,6 +37,16 @@ jQuery(function($) {'use strict',
 		menuToggle();
 	});
 
+	//Load first video
+	function loadVideoCurrent(){
+		currentItem = $('#event-carousel .item.active')
+		var $iframe=$(currentItem).find('iframe');
+		if ($iframe.data('src')){ // only do it once per iframe
+			$iframe.prop('src', $iframe.data('src')).data('src', false);
+		}
+	}
+	setTimeout(loadVideoCurrent,500)
+
 	/*$('.main-nav ul').onePageNav({
 		currentClass: 'active',
 	    changeHash: false,
@@ -62,6 +72,9 @@ jQuery(function($) {'use strict',
 		// EDIT: Doesn't work in Boostrap >= 3.2
 		currentIndex = carouselData.getActiveIndex();
 		//currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
+
+		//Load youtube video
+		loadVideoCurrent()
 
 		var appElement = document.querySelector('[ng-app=ddp]');
 		var $scope = angular.element(appElement).scope();
