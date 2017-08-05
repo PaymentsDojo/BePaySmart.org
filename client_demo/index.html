@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blockchain demo</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+
+  </head>
+  <body>
+  	
+  	<div id="parent">
+  		<div id="overlay">
+  			<h1></h1>
+  			<button class="btn btn-default pull-right" id="newAddressButton">New Address</button>
+  		</div>
+  		<div id="d3Nodes"></div>
+  	</div>
+
+  	<!-- The modals -->
+  	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel"><span id="nodeName"></span> <span id="nodeId"></span></h4>
+	      </div>
+	      <div class="modal-body">
+	      	<h2>Balances:</h2><br>
+	      	<div id="balTable">
+	      		<table class="table">
+	     
+	      		</table>
+	      	</div>
+
+	        <button type="button" class="btn btn-default" id="giveAssetButton">Give asset</button>
+	        <button type="button" class="btn btn-default" id="transferButton">Transfer</button>
+	        <button type="button" class="btn btn-default" id="changeFriendlyName">Change name</button>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="assetModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="assetModalLabel">Assets</h4>
+	      </div>
+	      <div class="modal-body">
+	        Existing assets:<br>
+	        <select id="assetSelector">
+	        	
+	        </select>
+
+	        <br>Or make a new one: <input type="text" id="newAssetName" value="Some Asset Name..." />
+
+
+	        <br>Choose asset type:
+	        <form action="">
+			  <input type="radio" name="assetType" value="existing"> Existing<br>
+			  <input type="radio" name="assetType" value="new" checked> New<br>
+			</form>
+
+
+	        <br>Quantity: <input type="number" id="newAssetQuan" min="0" value="1">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary" id="giveAssetActionButton">Give asset</button> 
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="transferModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="assetModalLabel">Transfer asset</h4>
+	      </div>
+	      <form id="transferForm">
+		      <div class="modal-body">
+			        Address's assets:<br>
+			        <select id="transferAssetSelector">
+			        	
+			        </select>
+			        <br>
+			        <br>
+			        How much? (Max: <span id="transferMax" min="1" value="1"></span>)
+			        <br> 
+			        <input type="number" id="transferQty" />
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <input type="submit" class="btn btn-primary"  value="Transfer" />
+		      </div>
+	      </form>
+	    </div>
+	  </div>
+	</div>
+
+
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/d3.v3.min.js"></script>
+    <script src="js/lib/spin.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -20,6 +20,8 @@ app.use(express.static("static"))
 app.use("/nss",express.static("nonSiteStuff"))
 //REMOVE ABOVE LINE WHEN DONE!!
 
+app.use("/demo",express.static("client_demo/"));
+app.use("/api",require("./api_sim")(null));
 
 app.listen(PORT,function(){
     console.log("app running on port " + PORT)
