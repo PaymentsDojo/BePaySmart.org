@@ -2,10 +2,10 @@
         "introduction":{
           "title": "Introduction",
           "teaserText": "Welcome to the Drogheda Digital Payments website!",
-          "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
           "paragraphs": [
             		"Welcome to the Drogheda Digital Payments website. On this website you will find how digital payments are already affecting our everyday lives, and how new types are sure to affect it even more. Brace yourselves as you embark on a journey to find out what, and why, digital payments are, and why we use them."
-          ] 
+          ],
+          "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY" 
         },
         "histcurrency":{
             "title": "The history of currency",
@@ -13,11 +13,11 @@
             "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "paragraphs":[
                 "Before the invention of money, people used barter to acquire the things that they needed. For example, if someone had cows and needed chickens, they would trade to get what they needed.",
-                "This however had many problems, one of them being that it was difficult to measure how much something is worth. How many chickens would you need to exchange for one cow, how much is a cow worth in bags of grain, etc. This also presented a problem as you could want something the other person has, but they might not want what you have available offer. This made it very difficult to get the things that you need.",
+                "This however had many problems, one of them being that it was difficult to measure how much something is worth. How many chickens would you need to exchange for one cow, how much is a cow worth in bags of grain, etc. This also presented a problem as you could want something the other person has, but they might not want what you have available for offer. This made it very difficult to get the things that you need.",
                 "People then moved on to using valuable commodities as a form of currency. Salt was once used as a currency but this was also a problem-filled solution. It was hard to carry around large amounts of salt, if you needed to buy something like a house. It would also be hard to hide and store that amount of salt so it would make you a target for robbery. Salt was also not very durable, if it got wet all your money would be gone.",
-                "Valuable metals then became the new form of money. Gold and Silver were used as the most common form of money throughout history. Gold coinage began to be minted again in Europe in the thirteenth century. Metal currency had the advantage of carrying their value within the coins themselves, but the problem with this was that people began clipping off part of the coins, melting them down and making new coins.",
+                "Valuable metals then became the new form of currency. Gold and Silver were used as the most common form of money throughout history. Gold coinage began to be minted again in Europe in the thirteenth century. Metal currency had the advantage of carrying their value within the coins themselves, but the problem with this was that people began clipping off part of the coins, melting them down and making new coins.",
                 "The next evolution in currency came when value was based on the weight of the metal. This made it impossible for people to make more money from clipping off pieces of metal and making more. People found it difficult to carry around gold and divide it properly so they began giving it to goldsmiths to look after it. The goldsmiths gave them a receipt saying how much gold they had stored in their vault and the receipt could be used to buy goods. This was the first form of paper money and the goldsmiths became the first bankers, using the gold that people gave them to give out loans to make more money after realising that the chance of everybody taking their money at once was very light.",
-                "This was a form of token or representative money in the sense that a piece of paper might represent or be a claim on a commodity like gold. Back in this day token money would be converted to gold on demand. The gold standard meant that currency was fully redeemable in the equivalent amount of gold. This was abandoned with the outbreak of the first World War, and there was an attempt to revive the gold standard in the 1920s and finally collapsed in 1931. But people still accepted notes and coins as they had confidence in them."
+                "This was a form of token or representative money in the sense that a piece of paper might represent or be a claim on a commodity like gold. Back in this day token money would be converted to gold on demand. The gold standard meant that currency was fully redeemable in the equivalent amount of gold. This was abandoned with the outbreak of the first World War, and there was an attempt to revive the gold standard in the 1920s and finally collapsed in 1931. However, people still accepted notes and coins as they had confidence in them."
             ]
         },
         "moneyobsolete":{
