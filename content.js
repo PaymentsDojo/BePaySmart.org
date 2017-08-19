@@ -62,7 +62,7 @@
         "smartphones":{
             "title": "Smartphones",
             "teaserText": "We all use, know, and love 'em!",
-            "youtubeLink": "",
+            "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "paragraphs": [
 		"The history of smartphones and where they are going in the future.",
 		"Smartphones are the most used devices that most people interact with nowadays.",
