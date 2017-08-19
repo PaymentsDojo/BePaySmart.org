@@ -37,8 +37,7 @@
             "paragraphs": [
                 	"Blockchain is a new way of storing information. It uses multiple servers to store the same information so that if one is attacked the data is not lost.",
 			"Put it like this, a just sounds like a kind of database with built-in validation—which it is. ",
-			"However, the clever bit is that the data is not stored in a one individual location or managed by any single person. Instead, it is said to be distri
-			ed, existing on several computers at the same time in such a way that anybody with an interest can maintain a copy. ",
+			"However, the clever bit is that the data is not stored in a one individual location or managed by any single person. Instead, it is said to be distributed, existing on several computers at the same time in such a way that anybody with an interest can maintain a copy. ",
 			"Better still, the block validation system ensures that nobody can change the records. Rather, old transactions are preserved forever and new transactions are added to the data irreversibly.",
 			"Effectively a blockchain is a kind of independent, transparent, and permanent database coexisting in multiple locations and shared by a community. Therefore, it’s sometimes referred to as a mutual distributed ledger (MDL). ",
 			"Blockchains are incredibly secure against attacks, as a potential attacker would have to attack all the servers at once, rather than attacking one and everything going down. There could be thousands of different machines, and all would have to be attacked!",
