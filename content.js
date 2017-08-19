@@ -64,7 +64,22 @@
             "teaserText": "We all use, know, and love 'em!",
             "youtubeLink": "",
             "paragraphs": [
-                
+		"The history of smartphones and where they are going in the future.",
+		"Smartphones are the most used devices that most people interact with nowadays.",
+		"2007 - The first smartphone was the iPhone made by apple in 2007.  It was a revolutionary move by apple. There soooooo many cool new features that the consumers loved such as the touchscreen a 2mp camera and an easy to use gui (graphical user interface).",
+		"2008 - Google releases the first Android smartphone that featured a sliding keyboard, a limited touchscreen display, an android app market known today as Google Play Store and many other customizability features that the iPhone didn’t provide until many years later.",
+		"Microsoft stops Windows Mobile after realizing they cannot compete with the Android and iPhone. They then develop the Windows Phone.",
+		"2010 - Apple Launched their first edition iPad.  A 10 inch tablet computer with many of the features of the iPhone with a bigger screen.",
+		"Android phones become more popular and begin to feature higher quality touchscreens which led to the same amount of touchscreen interaction as the iPhone.",
+		"It is announced that Google's Android has gained slightly less than ten percent of the smartphone market in just the first three months of the year.",
+		"The Samsung Galaxy tablet is released.  With a more stable updated android os (operating system) and a 7 inch form factor it was competition to the ipad.",
+		"Microsoft introduces their first phones running on the Windows Phone operating system. Sales are initially very low.",
+		"2011 -  It is announced that research has shown that smartphones actually outsold personal computers in the last three months of 2010.",
+		"Apple becomes the largest smartphone vendor, and Android becomes the highest selling smartphone platform.",
+		"Android takes over fifty percent of the smartphone market.",
+		"2012 - Present Day and the future",
+		"Smartphones have come a long way since their beginnings in 2007.  They now feature High resolution displays fingerprint security and can outperform budget desktop computers only a few years older than them.' Smartphones are already becoming everyone’s main computerised device."
+
             ]
         },
         "biometrics": {
