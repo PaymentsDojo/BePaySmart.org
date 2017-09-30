@@ -3,7 +3,7 @@
           "title": "Introduction",
           "teaserText": "Welcome to the Digital Payments Information website!",
           "paragraphs": [
-            		"Welcome to the Drogheda Digital Payments website. On this website you will find how digital payments are already affecting our everyday lives, and how new types are sure to affect it even more. Brace yourselves as you embark on a journey to find out what, and why, digital payments are, and why we use them."
+            		"Welcome to the Digital Payments Information. On this website you will find how digital payments are already affecting our everyday lives, and how new types are sure to affect it even more. Brace yourselves as you embark on a journey to find out what, and why, digital payments are, and why we use them."
           ],
           "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY" 
         },
