@@ -33,7 +33,7 @@
         },
         "blockchain":{
             "title":"Blockchain",
-			"infographic":"BLOCKCHAIN.png"
+			"infographic":"BLOCKCHAIN.png",
             "teaserText": "A new way to securely transfer assets!",
             "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "paragraphs": [
