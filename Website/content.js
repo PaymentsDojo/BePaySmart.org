@@ -23,6 +23,7 @@
         },
         "moneyobsolete":{
             "title": "Why is money becoming obsolete?",
+			"infographic": "whyismoneybecomingobsolete.png",
             "teaserText": "We've used it for so long, why are we dropping it now?",
             "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "paragraphs": [
@@ -33,7 +34,7 @@
         },
         "blockchain":{
             "title":"Blockchain",
-			"infographic":"BLOCKCHAIN.png",
+			"infographic":"blockchain.png",
             "teaserText": "A new way to securely transfer assets!",
             "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "paragraphs": [
