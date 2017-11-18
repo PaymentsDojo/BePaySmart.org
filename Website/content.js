@@ -33,6 +33,7 @@
         },
         "blockchain":{
             "title":"Blockchain",
+			"infographic":"BLOCKCHAIN.png"
             "teaserText": "A new way to securely transfer assets!",
             "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "paragraphs": [
@@ -81,7 +82,6 @@
 		"Android takes over fifty percent of the smartphone market.",
 		"2017 - Present Day and the future",
 		"Smartphones have come a long way since their beginnings in 2007.  They now feature high resolution displays, fingerprint security, and can outperform budget desktop computers only a few years older than them. Smartphones are already becoming everyone’s main computerised device."
-
             ]
         },
         "biometrics": {
