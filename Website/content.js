@@ -66,7 +66,7 @@
             "paragraphs": [
 		"The history of smartphones and where they are going in the future.",
 		"Smartphones are the most used devices that most people interact with nowadays.",
-		"2000 - First ever smartphone was released, Ericsson R380 Smartphone. It combined a phone and a PDA."
+		"2000 - First ever smartphone was released, Ericsson R380 Smartphone. It combined a phone and a PDA.",
 		"2007 - The first smartphone to take off was the iPhone made by Apple in 2007.  It was a revolutionary move by Apple. There were many cool new features that the consumers loved such as the touchscreen, a 2 megapixel camera, and an easy-to-use graphical user interface.",
 		"2008 - Google releases the first Android smartphone that featured a sliding keyboard, a limited touchscreen display, an android app market known today as Google Play Store and many other customizability features that the iPhone didn’t provide until many years later.",
 		"Microsoft stops Windows Mobile after realizing they cannot compete with the Android and iPhone. They then develop the Windows Phone.",
