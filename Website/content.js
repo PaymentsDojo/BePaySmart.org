@@ -1,6 +1,7 @@
 ﻿    content = {
         "introduction":{
           "title": "Introduction",
+		  "infographic": "digitalpaymentsintro.png",
 		  "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
           "teaserText": "Welcome to the Digital Payments Information website!",
           "paragraphs": [
@@ -113,6 +114,7 @@
         },
         "futuredigital": {
             "title": "The future of digital payments",
+			"infographic": "whatsnext.png",
             "teaserText": "So we’ve seen blockchain, biometrics and smartphones. But where else is the future going?",
             "youtubeLink": "https://www.youtube.com/embed/y6Sxv-sUYtM",
             "paragraphs": [
