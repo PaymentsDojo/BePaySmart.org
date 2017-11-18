@@ -115,18 +115,20 @@
 				<div class="col-sm-12 col-md-12">
 					<a name="eventC"></a>
 					<div id="event-carousel" class="carousel slide" data-interval="false">
-						<h2 class="heading" id="pageTitle">{{pages[currentIndex].title}}</h2>
+						<h1 style = "font-weight: bold;" class="heading" id="pageTitle">{{pages[currentIndex].title}}</h2>
 						<a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
 						<a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
 						<div class="carousel-inner" >
-							<div ng-repeat="(key,page) in pages" class="{{key == 0 ? 'item active' : 'item'}}">
+								<div ng-repeat="(key,page) in pages" class="{{key == 0 ? 'item active' : 'item'}}">
 								<div class="row">
 									<div class="col-sm-12">
 										<iframe width="100%" data-src="{{getProjURL(page.youtubeLink)}}" frameborder="0" allowfullscreen></iframe>
 									</div>
+								</div>
+								<div class = "row">
 									<div class = "col-sm-12">
-								 		<center><p style="font-size: 2em">{{page.teaserText}}</p></center>
-										 <p ng-repeat="p in page.paragraphs" ng-bind-html="p | trust"></p>
+								 		<center><p style="font-size: 2em; font-weight: bold;">{{page.teaserText}}</p></center>
+										 <p  style ="font-size:1.5em" ng-repeat="p in page.paragraphs" ng-bind-html="p | trust"></p>
 									</div>
 								</div>
 							</div>
