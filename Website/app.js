@@ -3,7 +3,7 @@ var content = require("./content")
 
 app = express()
 
-PORT = process.env.PORT || 8080
+PORT = process.env.PORT || 80
 
 app.get("/pageJSON/:page",function(req,res){
     page = req.params.page;
