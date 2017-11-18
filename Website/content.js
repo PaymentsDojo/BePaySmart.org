@@ -104,7 +104,7 @@
         },
         "security":{	
             "title": "Safety and Security",
-			"infographic":"safetyandsecurity.png"
+			"infographic":"safetyandsecurity.png",
             "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
             "teaserText": "One must consider the many risks that come with new biometric technology.",
             "paragraphs": [
