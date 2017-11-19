@@ -1,8 +1,0 @@
-HOW TO START:
-
-
-Just run "nohup node app.js &"
-
-(possibly "nohup nodejs app.js &" depending how old the node js version is :-) )
-
-(Note: This isn't the FULL site, just the necessary stuff)
