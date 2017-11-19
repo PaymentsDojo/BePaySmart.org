@@ -13,6 +13,7 @@
             "title": "The history of currency",
             "teaserText": "It's been around for a while.",
             "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
+            "infographic": "bartering.png",
             "paragraphs":[
                 "Before the invention of money, people used barter to acquire the things that they needed. For example, if someone had cows and needed chickens, they would trade to get what they needed.",
                 "This however had many problems, one of them being that it was difficult to measure how much something is worth. How many chickens would you need to exchange for one cow, how much is a cow worth in bags of grain, etc. This also presented a problem as you could want something the other person has, but they might not want what you have available for offer. This made it very difficult to get the things that you need.",
