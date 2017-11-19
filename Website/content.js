@@ -123,19 +123,7 @@
                 	"Robots are also going to be big in the digital payments landscape. Robots have already taken over many tasks such as building cars (and many other production lines) , and are destined to take over other tasks such as ordering in a restaurant.",
                 	"To summarize, the future is a big place. Almost every prediction from 30 years ago was too optimistic (flying cars), or too pessimistic (smartphones). The truth is, no one really knows  what’s going to happen in the future. No one.",
             ]
-        },
-        "security":{
-            "title": "Safety and Security",
-            "youtubeLink": "https://www.youtube.com/embed/IhP3J0j9JmY",
-            "teaserText": "One must consider the many risks that come with new biometric technology.",
-            "paragraphs": [
-                	"It can be said that not only does biometric technology add to the security and safety risks, it can also solve some.",
-                	"Once the biometric data goes digital and stored in a centralized database, it can be compromised. If a security breach occurred currently, new credits and details can be released to bank customers. In case of this occuring in the time of biometric payments, it would not be possible to release a new fingerprint. Banks and financial organisations must explore more secure methods of storage. Perhaps, standardization could solve this problem. The use of  biometrics data is currently largely unregulated. Once governments have set standards, different companies will not be able to operate under different degrees of scrutiny providing better security and more safety for users.",
-                	"Biometric technology could combat many major security issues such as Identity theft and ATM fraud. A fraud can currently apply for a credit card using a fake I.D.  however it would be difficult for a fraud to apply using a fake fingerprint. Card trapping is a regular occurrence at local ATMs. A card can be physically trapped in the machine comprising the details of the user/card owner – frauds go on to create counterfeit cards. This will issue would be combatted if biometric touch was used at an ATM. ",
-            ]
-
-        }
-            
+        }  
     }
 
 module.exports = {
