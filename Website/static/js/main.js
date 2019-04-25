@@ -23,7 +23,7 @@ jQuery(function($) {
         //Set a timer to load the video (if it changes)
         setTimeout(loadVideoCurrent, 500)
 
-		//Iframe resize timers
+        //Iframe resize timers
         $(window).resize(resize)
         setTimeout(resize, 500)
 
@@ -36,7 +36,7 @@ jQuery(function($) {
             //Load youtube video
             loadVideoCurrent()
 
-			//Update the angular currentIndex variable
+            //Update the angular currentIndex variable
             var appElement = document.querySelector('[ng-app=ddp]');
             var $scope = angular.element(appElement).scope();
             $scope = $scope.$$childHead; // add this and it will work
