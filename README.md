@@ -1,2 +1,1 @@
 # BePaySmart.org
-v hdufskvbdsfujvysdubvuoifbvykudsvuynbenbsyudfbiursf
