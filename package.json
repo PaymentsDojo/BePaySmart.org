@@ -1,7 +1,7 @@
 {
-    "name": "dpi",
-    "version": "1.0.0",
-    "description": "",
+    "name": "bps",
+    "version": "1.5.0",
+    "description": "Be Pay Smart",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
         "type": "git",
         "url": "git+https://github.com/BePaySmart/BePaySmart.org.git"
     },
-    "author": "",
+    "author": "bps_team",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/BePaySmart/BePaySmart.org/issues"
