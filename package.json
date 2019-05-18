@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/2BoysAndHats/Digital-Payments-Info.git"
+        "url": "git+https://github.com/BePaySmart/BePaySmart.org.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/2BoysAndHats/Digital-Payments-Info/issues"
+        "url": "https://github.com/BePaySmart/BePaySmart.org/issues"
     },
-    "homepage": "https://github.com/2BoysAndHats/Digital-Payments-Info#readme",
+    "homepage": "https://github.com/BePaySmart/BePaySmart.org",
     "dependencies": {
         "express": "^4.16.2"
     }
