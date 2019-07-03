@@ -122,7 +122,12 @@
       "Robots are also going to be big in the digital payments landscape. Robots have already taken over many tasks such as building cars (and many other production lines) , and are destined to take over other tasks such as ordering in a restaurant.",
       "To summarize, the future is a big place. Almost every prediction from 30 years ago was too optimistic (flying cars), or too pessimistic (smartphones). The truth is, no one really knows  what’s going to happen in the future. No one."
     ]
+  },
+  aboutus: {
+    title: "About Us"
+    teaserText: ""
   }
+
 };
 
 module.exports = {
