@@ -125,7 +125,7 @@
   },
   aboutus: {
     title: "About Us"
-    teaserText: ""
+    teaserText: "a"
   }
 
 };
