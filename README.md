@@ -1,12 +1,3 @@
 # BePaySmart.org
 
-A project by the BePaySmart Team!
-
-# We is good tema VERRY MUUUUUUUUUUCH!!! YAS??
-
-```
-#YOLO
-#YOLO2
-#OOF HL3 not confirmed yet
-#wow
-```
+Hi we are Bepaysmart.org we are a team of young people of the Payments Dojo in Drogheda, based in the Mill Enterprise Hub, Drogheda with a focus on digital payments and FinTech

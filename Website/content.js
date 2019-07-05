@@ -127,7 +127,6 @@
     title: "About Us",
     teaserText: "a"
   }
-
 };
 
 module.exports = {

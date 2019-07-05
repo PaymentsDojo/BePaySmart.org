@@ -1,11 +1,9 @@
-/* lg */ 
+/* lg */
 @media (min-width: 1200px) {
-  
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-
   .navbar-right {
     padding: 0 30px 0 0;
   }
@@ -26,22 +24,21 @@
     padding: 20px;
   }
 
-  
   #countdown li {
     margin-right: 30px;
   }
 
   .guitar {
-    right:0;
+    right: 0;
   }
 
   .guitar2 {
-    height: 100%
+    height: 100%;
   }
 
-    .guitar2 img {
-      padding-top: 20%;
-    }
+  .guitar2 img {
+    padding-top: 20%;
+  }
 
   .ear-piece {
     left: -15%;
@@ -50,13 +47,10 @@
   #event .col-md-9 {
     z-index: 10;
   }
-
-
 }
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
-
   .navbar-brand {
     width: 215px;
     height: 60px;
@@ -67,7 +61,7 @@
   }
 
   .navbar-right li a {
-    padding:20px 11px;
+    padding: 20px 11px;
     font-size: 17px;
   }
 
@@ -83,25 +77,27 @@
     padding: 20px 15px;
     font-size: 17px;
   }
- 
- #countdown li {
-  margin-right: 15px;
- }
+
+  #countdown li {
+    margin-right: 15px;
+  }
 
   .sponsor-control-left {
-    right:8%;
+    right: 8%;
   }
 
   .sponsor-control-right {
     right: 5%;
   }
 
-  .guitar, .ear-piece, .light {
+  .guitar,
+  .ear-piece,
+  .light {
     display: none;
   }
 
   .watch {
-    left: -8%
+    left: -8%;
   }
 
   .guitar2 {
@@ -109,28 +105,25 @@
   }
 
   .guitar2 img {
-    padding-top:38%;
+    padding-top: 38%;
   }
 
   .twit {
     left: -5%;
   }
-
-
 }
 
 /* xs */
 @media (max-width: 767px) {
-
   .main-nav .container {
     display: none;
   }
-  
+
   .fixed-menu .container {
     display: block;
   }
 
-   .fixed-menu .container {
+  .fixed-menu .container {
     width: 100%;
   }
 
@@ -167,19 +160,19 @@
   }
 
   #explore {
-    background-size:cover;
+    background-size: cover;
   }
 
   #explore h2 {
     float: inherit;
     font-size: 30px;
     margin-bottom: 30px;
-  }  
+  }
 
   #countdown li {
     font-size: 14px;
-    margin-right:35px;
-    width:inherit;
+    margin-right: 35px;
+    width: inherit;
   }
 
   #countdown li span {
@@ -189,9 +182,9 @@
     width: 60px;
   }
 
-  #countdown li:before, 
+  #countdown li:before,
   #countdown li:after {
-    top:25px;
+    top: 25px;
   }
 
   .cart a {
@@ -200,22 +193,21 @@
 
   .cart a i {
     font-size: 20px;
-    padding:15px;
+    padding: 15px;
   }
 
-   /*event */
+  /*event */
   .single-event {
     margin-bottom: 40px;
   }
 
-
-  #event h2, 
-  #about h2, 
+  #event h2,
+  #about h2,
   #sponsor h2 {
     font-size: 30px;
   }
 
-  .twitter-control-left, 
+  .twitter-control-left,
   .twitter-control-right {
     top: inherit;
     bottom: -40px;
@@ -233,9 +225,9 @@
     background-position: right 0 bottom 0;
   }
 
-  .sponsor-control-left, 
+  .sponsor-control-left,
   .sponsor-control-right {
-    top:0;
+    top: 0;
   }
 
   .sponsor-control-left {
@@ -248,19 +240,23 @@
 
   #sponsor .item ul li {
     width: 30%;
-    margin-right:3%
+    margin-right: 3%;
   }
 
   #sponsor .item ul li:last-child {
     margin-right: 0;
-   }
-
+  }
 
   #footer {
     font-size: 16px;
   }
 
-  .watch, .guitar, .guitar2, .twit, .light, .ear-piece {
+  .watch,
+  .guitar,
+  .guitar2,
+  .twit,
+  .light,
+  .ear-piece {
     display: none;
   }
 
@@ -270,15 +266,13 @@
   }
 
   .about-content {
-    width: 100%;    
+    width: 100%;
     padding: 70px 25px 110px;
   }
-
 }
 
 /* XS Portrait */
 @media (max-width: 479px) {
-
   .main-nav .container {
     display: none;
   }
@@ -304,7 +298,6 @@
   .navbar-brand {
     width: inherit;
   }
-
 
   #main-slider .carousel-caption {
     bottom: 17%;
@@ -332,14 +325,14 @@
 
   /* Explore */
   #explore {
-    background-size:cover;
+    background-size: cover;
   }
 
   #explore h2 {
     float: inherit;
     font-size: 30px;
     margin-bottom: 30px;
-  }  
+  }
 
   #countdown li {
     font-size: 14px;
@@ -354,13 +347,13 @@
     width: 45px;
   }
 
-  #countdown li:before, 
+  #countdown li:before,
   #countdown li:after {
-    top: 18px
+    top: 18px;
   }
 
   .cart {
-    right:-209px;
+    right: -209px;
   }
 
   .cart a {
@@ -369,32 +362,32 @@
 
   .cart a i {
     font-size: 20px;
-    padding:12px;
+    padding: 12px;
   }
 
-    /*event */
+  /*event */
   .single-event {
     margin-bottom: 40px;
   }
 
   .about-content {
-    width: 100%;    
+    width: 100%;
     padding: 70px 30px 110px;
   }
 
-  #event h2, 
-  #about h2, 
+  #event h2,
+  #about h2,
   #sponsor h2 {
     font-size: 30px;
   }
 
-  .about-content p, 
-  #twitter-feed .item a, 
+  .about-content p,
+  #twitter-feed .item a,
   #twitter-feed .item p {
     font-size: 15px;
   }
 
-  .twitter-control-left, 
+  .twitter-control-left,
   .twitter-control-right {
     top: inherit;
     bottom: -40px;
@@ -412,7 +405,7 @@
     background-position: right 0 bottom;
   }
 
-  .sponsor-control-left, 
+  .sponsor-control-left,
   .sponsor-control-right {
     top: 0;
   }
@@ -427,18 +420,23 @@
 
   #sponsor .item ul li {
     width: 45%;
-    margin-right: 5%
+    margin-right: 5%;
   }
 
   #sponsor .item ul li:last-child {
     margin-right: 0;
-   }
- 
+  }
+
   #footer {
     font-size: 14px;
   }
 
-  .watch, .guitar, .guitar2, .twit, .light, .ear-piece {
+  .watch,
+  .guitar,
+  .guitar2,
+  .twit,
+  .light,
+  .ear-piece {
     display: none;
   }
 
@@ -446,6 +444,4 @@
     background-position: left 0 bottom 0;
     background-size: cover;
   }
-
 }
-
