@@ -2,7 +2,7 @@
   introduction: {
     title: "Introduction",
     // "infographic": "digitalpaymentsintro.png",
-    teaserText: "Welcome to the BePaySmart website!",
+    teaserText: "Welcome to BePaySmart!",
     paragraphs: [
       "Welcome to BePaySmart. On this website you will find how digital payments are already affecting our everyday lives, and how new types are sure to affect it even more. Brace yourselves as you embark on a journey to find out what digital payments are, and why and how to use them."
     ]
@@ -125,7 +125,7 @@
   },
   aboutus: {
     title: "About Us",
-    teaserText: "a"
+    teaserText: "About us!"
   }
 };
 
