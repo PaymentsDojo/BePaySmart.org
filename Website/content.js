@@ -125,7 +125,26 @@
   },
   aboutus: {
     title: "About Us",
-    teaserText: "About us!"
+    teaserText: "About us!",
+    paragraphs: [
+    "As part of the M1 Payments Corridor initiative, The Mill Enterprise Hub and partners have been working with local teenagers on a Digital Payments Dojo. It is a fun and exciting project relating to payments and payments technology that allows the group to develop their skills in Coding, Project management, and Digital communication (graphics, video & social media).",
+    "Impacts to date include:",
+    "– Development of Digital Payments Info website, bepaysmart.org",
+    "– Fortnightly meetings where teenagers work on projects",
+    "– Visit to MasterCard Centre of Excellence",
+    "– Presentation at Paypal Dundalk on Blockchain as part of Louth LEO Enterprise week",
+    "www.M1PaymentsCorridor.com  was founded in 2015 to develop Fintech and Payments-related companies in the NorthEast. Its three strategic aims are:",
+    "• Developing Indigenous jobs and startup activity",
+    "• Building R&D capacity, innovation and skills",
+    "• Building an Internationally recognised Fintech & Payments Cluster", 
+    "The Payments CoderDojo aims to:",
+    "• Provide a safe, encouraging and motivational project environment / workspace",
+    "• Foster success within the project participants at a reasonable pace in a fun and engaging fashion that stimulated minds and input, resulting in quality outputs.",
+    "• Assist the Web Development Team of Coders with building, populating, marketing and driving traffic to a Payments Related Educational Website www.bepaysmart.org",
+    "• Assist the App Development Team of Coders with designing, developing, testing and implementing a new Payments-related Application",
+    "The Payments CoderDojo has been supported by Prepaid Financial Services(PFS) and The Mill Enterprise Hub.",
+    "We’re always looking for teenage participants who would like to be part of a team working on technology-related projects. IT skills are not a prerequisite and we welcome all enquiries as we always need team members who can work on design, marketing, UX, project management and other areas."
+    ],
   }
 };
 
