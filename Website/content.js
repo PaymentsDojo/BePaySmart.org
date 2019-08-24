@@ -3,7 +3,7 @@
     title: "Introduction",
     // "infographic": "digitalpaymentsintro.png",
       teaserText: "Welcome to BePaySmart!",
-      youtubeLink:"https://player.vimeo.com/video/234352854",
+      youtubeLink:"https://www.youtube.com/embed/JQg8qElaMI8",
     paragraphs: [
       "Welcome to BePaySmart. On this website you will find how digital payments are already affecting our everyday lives, and how new types are sure to affect it even more. Brace yourselves as you embark on a journey to find out what digital payments are, and why and how to use them."
     ]
@@ -26,7 +26,6 @@
     title: "Why is money becoming obsolete?",
     // "infographic": "whyismoneybecomingobsolete.png",
     teaserText: "We've used it for so long, why are we dropping it now?",
-    youtubeLink: "https://www.youtube.com/embed/IhP3J0j9JmY",
     paragraphs: [
       "As has been told on the <a href='#event' onclick='goto(1)'>history of currency page</a>, currency has existed in some form or another for as long as humans have been around – through bartering to coins to cash. Physical cash and money are becoming quite obsolete and you may be asking yourself, why?",
       "The growth of technology has led to many advances! Making purchases via card or electronic transfer are much more convenient and save time. Even more time can be saved as all transactions move towards biometric payments – time can be saved by not having to swipe your card, enter your PIN etc. All the security you need will be held within yourself alone. How many times have you lost money and just can’t find it?",
@@ -37,7 +36,6 @@
     title: "Blockchain",
     // "infographic":"blockchain.png",
     teaserText: "A new way to securely transfer assets!",
-    youtubeLink: "https://www.youtube.com/embed/IhP3J0j9JmY",
     paragraphs: [
       "Blockchain is a new way of transferring assets! It uses multiple servers to store the same information so that if one is attacked the data is not lost.",
       "Put it like this, a just sounds like a kind of database with built-in validation—which it is. ",
@@ -54,7 +52,6 @@
   contactless: {
     title: "Contactless Payments",
     teaserText: "Contactless payments are quicker and easier way to pay.",
-    youtubeLink: "https://www.youtube.com/embed/IhP3J0j9JmY",
     paragraphs: [
       "Contactless payments are a quicker and easier way to pay. Instead of carrying a bunch of coins in your pocket just use contactless payments.",
       "There are loads of ways to do contactless payments; for example, tap-to-pay credit cards, tap-to-pay debit cards, certain key fobs, smart cards or other devices including smartphones and some other mobile devices.",
@@ -65,7 +62,6 @@
   smartphones: {
     title: "Smartphones",
     teaserText: "We all use, know, and love 'em!",
-    youtubeLink: "https://www.youtube.com/embed/IhP3J0j9JmY",
     paragraphs: [
       "The history of smartphones and where they are going in the future.",
       "Smartphones are the most used devices that most people interact with nowadays.",
@@ -88,7 +84,6 @@
   biometrics: {
     title: "Biometrics",
     teaserText: "Security using your physical traits.",
-    youtubeLink: "https://www.youtube.com/embed/88Rjg8gM_DI",
     paragraphs: [
       "Biometrics is using a person’s physical traits ( fingerprints , iris , veins etc) to identify them.This has many uses , such as allowing someone to access their accounts without them having to remember their passwords, while still being as secure ( or even more) as a password.",
       "<h3>Types of biometrics:</h3> Fingerprint recognition<br> Iris recognition<br> Facial recognition<br> Voice recognition",
@@ -104,7 +99,6 @@
   security: {
     title: "Safety and Security",
     // "infographic":"safetyandsecurity.png",
-    youtubeLink: "https://www.youtube.com/embed/IhP3J0j9JmY",
     teaserText:
       "One must consider the many risks that come with new biometric technology.",
     paragraphs: [
