@@ -1,5 +1,5 @@
 {
-  "name": "dpi",
+  "name": "bps.org",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2BoysAndHats/Digital-Payments-Info.git"
+    "url": "git+https://github.com/BePaySmart/BePaySmart.org.git"
   },
-  "author": "",
+  "author": "BePaySmart.org, wizzdom",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/2BoysAndHats/Digital-Payments-Info/issues"
+    "url": "https://github.com/BePaySmart/BePaySmart.org/issues"
   },
-  "homepage": "https://github.com/2BoysAndHats/Digital-Payments-Info#readme",
+  "homepage": "https://github.com/BePaySmart/BePaySmart.org/#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
