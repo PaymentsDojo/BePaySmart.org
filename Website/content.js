@@ -3,7 +3,7 @@
     title: "Introduction",
     // "infographic": "digitalpaymentsintro.png",
       teaserText: "Welcome to BePaySmart!",
-      youtubeLink:"https://www.youtube.com/embed/JQg8qElaMI8",
+      youtubeLink: "https://www.youtube.com/embed/JQg8qElaMI8",
     paragraphs: [
       "Welcome to BePaySmart. On this website you will find how digital payments are already affecting our everyday lives, and how new types are sure to affect it even more. Brace yourselves as you embark on a journey to find out what digital payments are, and why and how to use them."
     ]
