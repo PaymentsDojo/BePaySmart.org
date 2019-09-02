@@ -7,7 +7,7 @@ const express = require('express');
 const app = express();
 
 // Certificate
-const privateKey = fs.readFileSync('/etc/letsencrypt/live/bepaymart.org/privkey.pem', 'utf8');
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/bepaysmart.org/privkey.pem', 'utf8');
 const certificate = fs.readFileSync('/etc/letsencrypt/live/bepaysmart.org/cert.pem', 'utf8');
 const ca = fs.readFileSync('/etc/letsencrypt/live/bepaysmart.org/chain.pem', 'utf8');
 
