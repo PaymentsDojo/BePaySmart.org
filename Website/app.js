@@ -17,8 +17,7 @@ const credentials = {
 	ca: ca
 };
 
-PORT = process.env.PORT || 80;
-
+// Get content from JSON file
 app.get("/pageJSON/:page", function(req, res) {
   page = req.params.page;
   res.json(content.page(page));
