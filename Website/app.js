@@ -17,9 +17,6 @@ const credentials = {
 	ca: ca
 };
 
-
-app = express();
-
 PORT = process.env.PORT || 80;
 
 app.get("/pageJSON/:page", function(req, res) {
