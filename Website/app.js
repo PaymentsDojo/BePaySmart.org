@@ -1,10 +1,13 @@
 // Dependencies
+const  compression = require('compression')
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
 const express = require('express');
 var content = require("./content");
 const app = express();
+
+app.use(compression())
 
 // Certificate
 const privateKey = fs.readFileSync('/etc/letsencrypt/live/www.bepaysmart.org/privkey.pem', 'utf8');
