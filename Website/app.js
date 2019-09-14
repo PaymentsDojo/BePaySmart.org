@@ -33,8 +33,14 @@ app.get("/pagesJSON", function(req, res) {
 app.use(express.static("static"));
 
 // Starting both http & https servers
-const httpServer = http.createServer(app);
+//const httpServer = http.createServer(app);
+const httpServer = http.createServer();
 const httpsServer = https.createServer(credentials, app);
+
+// redirect everything coming in on port 80 (http) to port 443 (https)
+httpsServer.get("*", function (req, res){
+	res.redirect('https://' + req.headers.host + req.url);
+});
 
 httpServer.listen(80, () => {
 	console.log('HTTP Server running on port 80');
