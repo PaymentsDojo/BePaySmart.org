@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ddp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>BePaySmart.org</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Yanone+Kaffeesatz&display=swap" rel="stylesheet"> 
+    
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">-->
+    <link href = "css/app.min.css" rel = "stylesheet">
+
+    <!-- test-->
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	 <link rel="shortcut icon" href="images/ico/favicon.ico">
+	 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+	 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+	 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+	 <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+  <!--/head-->
+
+  <body>
+    <header id="header" role="banner">
+      <div class="main-nav">
+        <div class="container">
+          <div class="header-top">
+            <!--	<div class="pull-right social-icons">
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-youtube"></i></a>
+	    </div> -->
+          </div>
+          <div class="row">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	      </button>
+              <a class="navbar-brand" href="index.html">
+                <img class="img-responsive" src="images/M1PaymentsCorridor.png" alt="logo">
+                <!-- NEED NEW LOGO HERE -->
+              </a>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="scroll active"><a href="#home">Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+   		    <li class="scroll"><a href="#event" onclick="goto(9)">About us!</a></li>
+                    <li class="scroll"><a href="#event" onclick="goto(0)">Introduction</a></li>
+                    <li class="scroll"><a href="#event" onclick="goto(1)">History of currency</a></li>
+                    <li class="scroll"><a href="#event" onclick="goto(2)">Why money is now becoming obsolete</a></li>
+                    <li class="scroll"><a href="#event" onclick="goto(3)">Blockchain</a></li>
+                    <li class="scroll"><a href="#event" onclick="goto(4)">Contactless payments</a></li>
+                    <li class="scroll"><a href="#event" onclick="goto(5)">Smartphones</a></li>
+                    <li class="scroll"><a href="#event" onclick="goto(6)">Biometrics</a></li>
+                    <li class="scroll"><a href="#event" onclick="goto(7)">Safety &amp; Security</a>
+                    <li class="scroll"><a href="#event" onclick="goto(8)">Where technology is going</a></li>
+                  </ul>
+                </li>
+                <li class="scroll"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--/#header-->
+    
+    <section id="home">
+      <div id="main-slider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#main-slider" data-slide-to="1"></li>
+          <li data-target="#main-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img class="img-responsive" src="images/slider/bg1.jpg" alt="slider">
+            <div class="carousel-caption">
+              <h2>blockchain </h2>
+              <h4>the currency of the future</h4>
+              <a href="#event" onclick="goto(3)">READ MORE<i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+          <div class="item">
+            <img class="img-responsive" src="images/slider/bg2.jpg" alt="slider">
+            <div class="carousel-caption">
+              <h2>the future of digital payments </h2>
+              <h4>where is it going?</h4>
+              <a href="#event" onclick="goto(8)">READ MORE <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+          <div class="item">
+            <img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+            <div class="carousel-caption">
+              <h2>biometrics </h2>
+              <h4>security using your physical traits</h4>
+              <a href="#event" onclick="goto(6)">READ MORE <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#home-->
+    <section id="event" ng-controller="PageController">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <a name="eventC"></a>
+            <div id="event-carousel" class="carousel slide" data-interval="false">
+              <h2 style="font-weight: bold;" class="heading" id="pageTitle">{{pages[currentIndex].title}}</h2>
+              <a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+              <a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+              <div class="carousel-inner">
+                <!--<div class="row">
+                  <div class="col-sm-12">
+                    <center>
+                      <img class="img-responsive" src="/images/Infographics/{{getProjURL(page.infographic)}}">
+                    </center>
+                  </div>
+                </div>-->
+		<div ng-repeat="(key,page) in pages" class="{{key == 0 ? 'item active' : 'item'}}">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <center>
+			<p style="font-size: 2em; font-weight: bold;">{{page.teaserText}}</p>
+                      </center>
+                      <p style="font-size:1em" ng-repeat="p in page.paragraphs" ng-bind-html="p | trust"></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <center>
+			<img class="img-responsive" src="/images/Other/{{getProjURL(page.image1)}}">
+                      </center>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <center>
+			<img class="img-responsive" src="/images/Other/{{getProjURL(page.image2)}}">
+                      </center>
+                    </div>
+                  </div>
+		  <div class="row">		
+		    <div class="col-sm-12">
+		      <iframe width="100%" data-src="{{getProjURL(page.youtubeLink)}}" frameborder="0" allowfullscreen></iframe>
+		    </div> 
+		  </div>
+		</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#event-->
+    
+    <section id="contact">
+      <div class="contact-section">
+        <div class="ear-piece">
+          <img class="img-responsive" src="images/ear-piece.png" alt="">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 col-sm-offset-4">
+              <div class="contact-text">
+                <h3>Contact Us</h3>
+                <address>
+		  E-mail: 
+		  <a href ="mailto:info@bepaysmart.org">info@BePaySmart.org</a><br>
+		  Other Contacts <br>
+		  <a href="https://zen.coderdojo.com/dojos/ie/louth/drogheda/drogheda-on-the-boyne">Drogheda on the Boyne @ Coderdojo Zen</a><br>
+		  <a href="https://zen.coderdojo.com/dojos/ie/drogheda/drogheda-the-mill">Payments Dojo @ Coderdojo Zen</a><br>
+		  <a href="https://themilldrogheda.ie/">The Mill Drogheda</a><br>
+		</address>
+              </div>
+              <div class="contact-address">
+                <h3>Address</h3>
+                <address>
+		  Payments Coderdojo<br>
+		  The Mill,<br>
+		  Newtown Link Road,<br>
+		  Greenhills,<br>
+		  Drogheda,<br> 
+		  Co. Louth<br> 
+		  A92 CD3D<br>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>		
+    </section>
+    <!--/#contact-->
+    
+    <footer id="footer">
+      <div class="container">
+        <div class="text-center">
+          <p> Copyright  &copy;2019 The BePaySmart Team <br> All rights (probably) reserved.</p>                
+        </div>
+      </div>
+    </footer>
+    <!--/#footer-->
+    
+    <!--<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>-->
+    <script type = "text/javascript" src = "js/app.min.js"></script>
+    
+  </body>
+</html>
