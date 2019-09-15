@@ -106,7 +106,7 @@ h2 {
 }
 
 .navbar-brand {
-  background-color: #1b7b98;
+  background-color: #00000000;
   height: 120px;
   margin-bottom: 10px;
   position: relative;
@@ -115,7 +115,7 @@ h2 {
 
 .navbar-brand img {
   position: absolute;
-  top: 0py;
+  top: 0px;
 }
 
 .navbar-right {
@@ -313,7 +313,7 @@ h2 {
 **************************/
 
 #about {
-  background-color: #75b46e;
+  background-color: #000000;
   position: relative;
   width: 100%;
   display: flex;
@@ -337,7 +337,7 @@ h2 {
   padding: 70px 70px 110px;
 }
 
-#about h2 {
+#about h2 {x
   margin-bottom: 23px;
 }
 
