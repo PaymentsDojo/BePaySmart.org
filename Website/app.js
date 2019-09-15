@@ -1,5 +1,6 @@
 // Dependencies
-const  compression = require('compression')
+const compression = require('compression');
+const redirectToHTTPS = require('express-http-to-https').redirectToHTTPS;
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
@@ -7,7 +8,8 @@ const express = require('express');
 var content = require("./content");
 const app = express();
 
-app.use(compression())
+app.use(redirectToHTTPS());
+app.use(compression());
 
 // Certificate
 const privateKey = fs.readFileSync('/etc/letsencrypt/live/www.bepaysmart.org/privkey.pem', 'utf8');
@@ -32,7 +34,7 @@ app.get("/pagesJSON", function(req, res) {
 
 app.use(express.static("static"));
 
-// Starting both http & https servers
+// Starting both http & https server
 const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
 
