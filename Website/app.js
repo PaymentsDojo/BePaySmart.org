@@ -13,21 +13,8 @@ const app = express();
 
 if (mode == "prod") {
 	const redirectToHTTPS = require('express-http-to-https').redirectToHTTPS;
-	const https = require('https');
 	
 	app.use(redirectToHTTPS());
-
-	// Certificate
-	const privateKey = fs.readFileSync('/etc/letsencrypt/live/www.bepaysmart.org/privkey.pem', 'utf8');
-	const certificate = fs.readFileSync('/etc/letsencrypt/live/www.bepaysmart.org/cert.pem', 'utf8');
-	const ca = fs.readFileSync('/etc/letsencrypt/live/www.bepaysmart.org/chain.pem', 'utf8');
-
-	const credentials = {
-		key: privateKey,
- 		cert: certificate,
- 		ca: ca
-	};
-
 }
 
 app.use(compression());
@@ -52,6 +39,19 @@ httpServer.listen(80, () => {
 });
 
 if (mode == "prod") {
+	// Certificate
+	const privateKey = fs.readFileSync('/etc/letsencrypt/live/www.bepaysmart.org/privkey.pem', 'utf8');
+	const certificate = fs.readFileSync('/etc/letsencrypt/live/www.bepaysmart.org/cert.pem', 'utf8');
+	const ca = fs.readFileSync('/etc/letsencrypt/live/www.bepaysmart.org/chain.pem', 'utf8');
+
+	const credentials = {
+		key: privateKey,
+ 		cert: certificate,
+ 		ca: ca
+	};
+
+	const https = require('https');
+
 	const httpsServer = https.createServer(credentials, app);
 
 	httpsServer.listen(443, () => {
