@@ -107,10 +107,10 @@ h2 {
 
 .navbar-brand {
   background-color: #00000000;
-  height: 120px;
+  height: 240px;
   margin-bottom: 10px;
   position: relative;
-  width: 350px;
+  width: 700px;
 }
 
 .navbar-brand img {
