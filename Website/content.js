@@ -120,10 +120,10 @@
   },
   aboutus: {
     title: "About Us",
-    teaserText: "About us!",
+    teaserText: "Who Are We?",
     paragraphs: [
       "As part of the M1 Payments Corridor initiative, The Mill Enterprise Hub and partners have been working with local teenagers on a Digital Payments Dojo. It is a fun and exciting project relating to payments and payments technology that allows the group to develop their skills in Coding, Project management, and Digital communication (graphics, video & social media).",
-      "Impacts to date include:",
+      "<strong>Impacts to date include:</strong>",
       "– Development of Digital Payments Info website, bepaysmart.org",
       "– Fortnightly meetings where teenagers work on projects",
       "– Visit to MasterCard Centre of Excellence",
@@ -132,7 +132,7 @@
       "• Developing Indigenous jobs and startup activity",
       "• Building R&D capacity, innovation and skills",
       "• Building an Internationally recognised Fintech & Payments Cluster",
-      "<strong>The Payments CoderDojo aims to:</strong>",
+      "<h3><strong>The Payments CoderDojo aims to:</strong></h3>",
       "• Provide a safe, encouraging and motivational project environment / workspace",
       "• Foster success within the project participants at a reasonable pace in a fun and engaging fashion that stimulated minds and input, resulting in quality outputs.",
       "• Assist the Web Development Team of Coders with building, populating, marketing and driving traffic to a Payments Related Educational Website www.bepaysmart.org",
