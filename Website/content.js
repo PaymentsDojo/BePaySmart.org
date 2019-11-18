@@ -140,7 +140,6 @@
       "• Assist the App Development Team of Coders with designing, developing, testing and implementing a new Payments-related Application",
       "The Payments CoderDojo has been supported by Prepaid Financial Services(PFS) and The Mill Enterprise Hub.",
       "We’re always looking for teenage participants who would like to be part of a team working on technology-related projects. IT skills are not a prerequisite and we welcome all enquiries as we always need team members who can work on design, marketing, UX, project management and other areas."
-      "<a href="https://zen.coderdojo.com/dojos/ie/drogheda/payments-dojo-the-mill-drogheda">Join Us!</a>"
     ],
     image1: "pfsaward.jpg",
     image2: "centerofexcellence.jpg"
